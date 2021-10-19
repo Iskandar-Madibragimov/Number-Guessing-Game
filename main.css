@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(251, 200, 163);
+    margin-top: 150px;
+}
+
+.container{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+p{
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+button{
+    height: 35px;
+    width: 80px;
+    background-color: rgb(41, 115, 134);
+    color: white;
+    border: 1px solid rgb(33, 17, 122);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#playAgain{
+    transition: .5s;
+}
